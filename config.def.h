@@ -19,7 +19,7 @@ static char *colors[SchemeLast][2] = {
 
 	/*     fg         bg       */
 	[SchemeNorm] = { color0, color1 },
-	[SchemeSel]  = { color2,  color3  },
+	[SchemeSel]  = { color1,  color0  },
 	[SchemeOut]  = { "#000000",   "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
